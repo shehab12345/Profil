@@ -97,7 +97,18 @@ body.dark-theme{
 .change-theme:hover{
   color: var(--first-color);
 }
+/* New CSS for language toggle buttons */
+.language-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 15px; /* Adjust as needed */
+}
 
+.language-icon {
+  width: 24px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 5px; /* Space between icon and text */
+}
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
