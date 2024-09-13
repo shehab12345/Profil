@@ -97,6 +97,7 @@ body.dark-theme{
 .change-theme:hover{
   color: var(--first-color);
 }
+
 /* New CSS for language toggle buttons */
 .language-toggle {
   display: flex;
@@ -105,10 +106,11 @@ body.dark-theme{
 }
 
 .language-icon {
-  width: 24px; /* Adjust size as needed */
+  width: 16px; /* Example size adjustment */
   height: auto;
-  margin-right: 5px; /* Space between icon and text */
+  margin-right: 5px;
 }
+
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
